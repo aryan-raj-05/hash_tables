@@ -8,3 +8,6 @@ typedef struct ht_hash_table {
     int count;
     ht_item **items;    // ** indicates an array of pointers
 } ht_hash_table;
+
+#define HT_PRIME_1 151
+#define HT_PRIME_2 157
