@@ -114,3 +114,8 @@ void ht_delete(ht_hash_table *ht, const char *key) {
     }
     ht->count--;
 }
+
+static ht_hash_table *ht_new_sized(const int base_size) {
+    ht_hash_table *ht = xmalloc(sizeof(ht_hash_table));
+    
+}
